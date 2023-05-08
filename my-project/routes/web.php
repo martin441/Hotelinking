@@ -37,8 +37,11 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::middleware('auth')->group(function () {
-    Route::get('/promotions', [PromotionController::class, 'index'])->middleware(['auth', 'verified'])->name('promotions.index');
+    Route::get('/promotions', [PromotionController::class, 'index'])
+        ->middleware(['auth', 'verified'])
+        ->name('promotions.index');
 });
+
 
 
 require __DIR__.'/auth.php';
