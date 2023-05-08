@@ -42,6 +42,4 @@ Route::middleware('auth')->group(function () {
         ->name('promotions.index');
 });
 
-
-
 require __DIR__.'/auth.php';
