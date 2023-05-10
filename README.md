@@ -5,13 +5,27 @@ Tech test
 
 Es una pequeña plataforma donde un usuario puede acceder, ve una lista de ofertas, y puede, haciendo click sobre alguna de ellas, generar un código único que se guardará en la base de datos y después puede revisar que códigos promocionales tiene en una página de detalle. En la página de detalle, el usuario puede pulsar sobre un botón canjear código que marcará como canjeado el código de la BBDD y confirmará al usuario que se ha canjeado.
 
-Requisitos del cliente:
+# Requisitos del pedido:
 
 - Un usuario se registra o hace login en la aplicación.
 - El usuario ve una lista de ofertas y un botón para generar un código promocional.
 - Un usuario puede hacer click en el botón para recibir un código promocional, éste tiene que ser único.
 - El usuario puede ver un listado de sus códigos promocionales, en otra página y, haciendo click sobre cada uno de ellos, canjearlos. (No se necesita realizar un sistema de canjeo complejo, simplemente marcarlo como canjeado).
 - En todos los casos, aparecerá confirmación (Feedback) de las operaciones realizadas.
+- Se ha de usar preferiblemente Laravel.
+- Se puede usar MySql.
+- Se valorará el uso de Frameworks de Frontend.
+
+# Requisitos extras:
+
+- Se valorará muy positivamente el uso de Docker.
+- Se valorará muy positivamente que se realicen test unitarios y de integración.
+- Se valorará muy positivamente una arquitectura modular y reutilizable en la medida de lo posible como el service repository pattern.
+
+### Características de la apliación desarrollada
+- Se desarrolló una aplicación responsive, con las siguientes herramientas y tecnologías:
+ 
+**PHP, Laravel, Javascript, React, Vite, SQLite, Tailwind, Docker**
 
 ### Pasos para utilizar la apliación 
 - Clona en tu dispositvo local [este repositorio](https://github.com/martin441/Hotelinking.git).
