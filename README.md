@@ -24,7 +24,7 @@ Es una pequeña plataforma donde un usuario puede acceder, ve una lista de ofert
 
 ### Características de la apliación desarrollada
 - Se desarrolló una aplicación responsive, con las siguientes herramientas y tecnologías: **PHP, Laravel, SQLite, Javascript, React, Vite, Tailwind, Tests y Docker**
-- Se definió el siguiente [Schema Design](https://dbdiagram.io/d/64590dc5dca9fb07c4b463da)
+- Se definió el siguiente [Schema Design](https://dbdiagram.io/d/64590dc5dca9fb07c4b463da).
 
 ### Pasos para utilizar la apliación 
 - Clona en tu dispositvo local [este repositorio](https://github.com/martin441/Hotelinking.git).
