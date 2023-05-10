@@ -7,11 +7,11 @@ Es una pequeña plataforma donde un usuario puede acceder, ve una lista de ofert
 
 Requisitos del cliente:
 
--Un usuario se registra o hace login en la aplicación.
--El usuario ve una lista de ofertas y un botón para generar un código promocional.
--Un usuario puede hacer click en el botón para recibir un código promocional, éste tiene que ser único.
--El usuario puede ver un listado de sus códigos promocionales, en otra página y, haciendo click sobre cada uno de ellos, canjearlos. (No se necesita realizar un sistema de canjeo complejo, simplemente marcarlo como canjeado).
--En todos los casos, aparecerá confirmación (Feedback) de las operaciones realizadas.
+- Un usuario se registra o hace login en la aplicación.
+- El usuario ve una lista de ofertas y un botón para generar un código promocional.
+- Un usuario puede hacer click en el botón para recibir un código promocional, éste tiene que ser único.
+- El usuario puede ver un listado de sus códigos promocionales, en otra página y, haciendo click sobre cada uno de ellos, canjearlos. (No se necesita realizar un sistema de canjeo complejo, simplemente marcarlo como canjeado).
+- En todos los casos, aparecerá confirmación (Feedback) de las operaciones realizadas.
 
 ### Pasos para utilizar la apliación 
 - Clona en tu dispositvo local [este repositorio](https://github.com/martin441/Hotelinking.git).
