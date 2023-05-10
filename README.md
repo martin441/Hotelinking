@@ -23,9 +23,7 @@ Es una pequeña plataforma donde un usuario puede acceder, ve una lista de ofert
 - Se valorará muy positivamente una arquitectura modular y reutilizable en la medida de lo posible como el service repository pattern.
 
 ### Características de la apliación desarrollada
-- Se desarrolló una aplicación responsive, con las siguientes herramientas y tecnologías:
- 
-**PHP, Laravel, Javascript, React, Vite, SQLite, Tailwind, Docker**
+- Se desarrolló una aplicación responsive, con las siguientes herramientas y tecnologías: **PHP, Laravel, SQLite, Javascript, React, Vite, Tailwind, Tests y Docker**
 
 ### Pasos para utilizar la apliación 
 - Clona en tu dispositvo local [este repositorio](https://github.com/martin441/Hotelinking.git).
