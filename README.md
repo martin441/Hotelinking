@@ -41,4 +41,4 @@ Es una pequeña plataforma donde un usuario puede acceder, ve una lista de ofert
 - Cuando ambos estén en ejecución, ingresa al puerto que te indica *php artisan serve*.
 
 ### Disfrutando la aplicación
-**¡Una vez hayas ingresado registra una cuenta y podrás disfrutar de la aplicación!**
+**¡Una vez que hayas ingresado, registrate con tu cuenta y podrás disfrutar de la aplicación!**
