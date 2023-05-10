@@ -1,0 +1,60 @@
+version: "3"
+
+services:
+    laravel.test:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: myapp
+        ports:
+            - "8000:8000"
+        volumes:
+            - .:/var/www/html
+            - /var/www/html/vendor
+            - /var/www/html/node_modules
+        environment:
+            APP_NAME: myapp
+            APP_ENV: local
+            APP_DEBUG: "true"
+            APP_URL: http://localhost:8000
+            DB_CONNECTION: sqlite
+            DB_DATABASE: /var/www/html/database/database.sqlite
+            CACHE_DRIVER: file
+            QUEUE_CONNECTION: sync
+        depends_on:
+            - mysql
+        networks:
+            - laravel
+
+    mysql:
+        image: mysql:8.0
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_DATABASE: myapp
+            MYSQL_RANDOM_ROOT_PASSWORD: "yes"
+            MYSQL_USER: root
+            MYSQL_PASSWORD: password
+            MYSQL_ROOT_PASSWORD: password
+        volumes:
+            - mysql:/var/lib/mysql
+        networks:
+            - laravel
+
+# db:
+#     image: mysql:8.0
+#     environment:
+#         MYSQL_DATABASE: myapp
+#         MYSQL_USER: root
+#         MYSQL_PASSWORD: password
+#         MYSQL_ROOT_PASSWORD: password
+#     volumes:
+#         - mysql:/var/lib/mysql
+#     networks:
+#         - laravel
+
+networks:
+    laravel:
+
+volumes:
+    mysql:
